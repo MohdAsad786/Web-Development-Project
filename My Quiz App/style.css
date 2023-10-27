@@ -1,0 +1,83 @@
+/* style for Quiz App */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,500&family=Poppins:ital,wght@0,100;0,500;0,700;1,200;1,300;1,400&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+}
+.app{
+    background: aliceblue;
+    border: 3px solid black;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+     border-radius: 11px;
+     padding: 30px;
+}
+
+.app h1{
+    font-size:27px ;
+    font-weight: 700px;
+    border-bottom:3px solid rgba(18, 115, 194, 0.76);
+    color: rgba(18, 115, 194, 0.76);
+    padding-bottom: 3px;
+}
+.Quiz{
+    padding: 22px 0;
+}
+.Quiz h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+
+}
+.btn{
+    background: white;
+    text-align: left;
+    font-weight: 500px;
+    width: 100%;
+    border: 1px solid darkgray;
+    padding: 11px;
+    margin: 11px 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: blue;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: whitesmoke;
+    color: black;
+}
+
+.btn:disabled{
+    cursor:no-drop;
+}
+#next-button{
+    
+    
+    background: black;
+    color: white;
+    font-weight: 500px;
+    border: 0;
+    width: 150px;
+    padding: 11px;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    cursor: pointer;
+    /* display: block; */
+    font-size: 16px;
+    display: none;
+}
+ .correct{
+    background: green;
+ }
+ .incorrect{
+background: red;
+ }
