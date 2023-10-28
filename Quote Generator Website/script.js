@@ -16,4 +16,8 @@ getQuote(api_url);
 function tweet(){
     window.open(  href="https://twitter.com/intent/tweet?text=" + quote.innerHTML,"Tweet Window",width="60",height="30"
     )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0a1ccc5ab9e740e913aae3786208b03a20d13ded
